@@ -96,18 +96,18 @@ public class Contsructorrs {
 
         public static void main(String[] args) {
             new Customers(2);
-            new Customers("Harshada", 5);
+            new Customers("vipul", 5);
             Customers c1 = new Customers();
             c1.func();
             Customers c2 = new Customers();
-            c2.setName("Daksh");
+            c2.setName("jayanth");
             c2.id = 10;
             c2.contact_no = "345435";
-            c2.address = "delhi";
+            c2.address = "mysuru";
             System.out.println("c2.name = " + c2.name);
             System.out.println("c2.getContactNo() = " + c2.getContact_no());
             System.out.println("c2.getAddress() = " + c2.getAddress());
-            Customers c3 = new Customers("Veenashree",101,"34543543","Andheri");
+            Customers c3 = new Customers("udit",101,"34543543","banglore");
             System.out.println("c3.getName() = " + c3.getName());
             System.out.println("c3.getContact() = " + c3.getContact_no());
         }
@@ -118,10 +118,10 @@ public class Contsructorrs {
             getData(c1);
         }
         void setData(Customers c1){
-            c1.setName("harshada");
+            c1.setName("vipul");
             c1.setId(12);
             c1.setContact_no("2354454");
-            c1.setAddress("mumbai");
+            c1.setAddress("karnataka");
         }
         void getData(Customers c1){
             c1.display(6);
