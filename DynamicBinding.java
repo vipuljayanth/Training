@@ -1,5 +1,5 @@
 public class DynamicBinding {
-        public  Static void main(String[] args) {
+        public void main(String[] args) {
             RegularCustomer regCust1 = new RegularCustomer();
             RegularCustomer regCust2 = new RegularCustomer();
             PremiumCustomer premCust1 = new PremiumCustomer();
